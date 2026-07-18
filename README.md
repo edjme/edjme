@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Stanislav — Engineer, Developer, Researcher" width="100%">
+  <img src="./banner.svg" alt="Stanislav — Engineer, Developer, Researcher" width="100%">
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
 ```
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="" width="100%">
+  <img src="./divider.svg" alt="" width="100%">
 </p>
 
 ## `> IDENTITY_MATRIX`
@@ -42,7 +42,7 @@ operating_mode: BUILD → TEST → ANALYZE → IMPROVE
 ```
 
 <p align="center">
-  <img src="./assets/focus.svg" alt="Active research channels" width="100%">
+  <img src="./focus.svg" alt="Active research channels" width="100%">
 </p>
 
 ## `> TECHNOLOGY_STACK`
@@ -88,7 +88,7 @@ operating_mode: BUILD → TEST → ANALYZE → IMPROVE
 </table>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="" width="100%">
+  <img src="./divider.svg" alt="" width="100%">
 </p>
 
 ## `> TELEMETRY`
@@ -113,7 +113,7 @@ operating_mode: BUILD → TEST → ANALYZE → IMPROVE
 ```
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="" width="100%">
+  <img src="./divider.svg" alt="" width="100%">
 </p>
 
 <p align="center">
