@@ -1,0 +1,78 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05010D"/>
+      <stop offset="0.52" stop-color="#0B1023"/>
+      <stop offset="1" stop-color="#030A12"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="180" y1="95" x2="1020" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F7FF"/>
+      <stop offset="0.48" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#FF2BD6"/>
+    </linearGradient>
+    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowPink" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#1F2A44" stroke-width="1" opacity="0.38"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#FFFFFF" opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="26" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="26" fill="url(#scan)"/>
+
+  <path d="M0 280L290 188L560 245L885 110L1200 170" stroke="#00F7FF" stroke-width="2" opacity="0.24"/>
+  <path d="M0 300L290 205L560 265L885 130L1200 190" stroke="#FF2BD6" stroke-width="2" opacity="0.16"/>
+
+  <g opacity="0.78">
+    <path d="M55 58H244L281 95H425" stroke="#00F7FF" stroke-width="2"/>
+    <circle cx="55" cy="58" r="5" fill="#00F7FF" filter="url(#glowCyan)"/>
+    <circle cx="425" cy="95" r="4" fill="#00F7FF"/>
+    <path d="M795 65H1035L1080 110H1150" stroke="#FF2BD6" stroke-width="2"/>
+    <circle cx="795" cy="65" r="4" fill="#FF2BD6"/>
+    <circle cx="1150" cy="110" r="5" fill="#FF2BD6" filter="url(#glowPink)"/>
+  </g>
+
+  <g opacity="0.48">
+    <path d="M70 317H245L270 292H390" stroke="#8B5CF6" stroke-width="2"/>
+    <path d="M825 318H1022L1050 290H1130" stroke="#00F7FF" stroke-width="2"/>
+    <circle cx="390" cy="292" r="4" fill="#8B5CF6"/>
+    <circle cx="825" cy="318" r="4" fill="#00F7FF"/>
+  </g>
+
+  <rect x="54" y="42" width="1092" height="276" rx="18" stroke="url(#neon)" stroke-width="2" opacity="0.62"/>
+  <path d="M54 88V60C54 50.0589 62.0589 42 72 42H110" stroke="#00F7FF" stroke-width="5" filter="url(#glowCyan)"/>
+  <path d="M1090 318H1128C1137.94 318 1146 309.941 1146 300V264" stroke="#FF2BD6" stroke-width="5" filter="url(#glowPink)"/>
+
+  <text x="82" y="102" fill="#00F7FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="18" letter-spacing="4">NEURAL ACCESS // ID: EDJME</text>
+
+  <text x="78" y="200" fill="url(#neon)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="68" font-weight="800" letter-spacing="5" filter="url(#glowCyan)">STANISLAV</text>
+
+  <text x="82" y="244" fill="#D8E7FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="23" letter-spacing="7">ENGINEER // DEVELOPER // RESEARCHER</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">
+    <rect x="82" y="276" width="174" height="28" rx="5" fill="#00F7FF" fill-opacity="0.12" stroke="#00F7FF" stroke-opacity="0.8"/>
+    <text x="100" y="295" fill="#00F7FF">SYSTEM: ONLINE</text>
+    <rect x="270" y="276" width="238" height="28" rx="5" fill="#FF2BD6" opacity="0.10" stroke="#FF2BD6"/>
+    <text x="287" y="295" fill="#FF7AE8">MODE: BUILD / ANALYZE</text>
+  </g>
+
+  <g opacity="0.75">
+    <rect x="1002" y="148" width="96" height="96" rx="10" stroke="#00F7FF" stroke-width="2"/>
+    <path d="M1024 196H1076M1050 170V222" stroke="#FF2BD6" stroke-width="2"/>
+    <circle cx="1050" cy="196" r="31" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="7 7"/>
+    <circle cx="1050" cy="196" r="8" fill="#00F7FF" filter="url(#glowCyan)"/>
+  </g>
+</svg>

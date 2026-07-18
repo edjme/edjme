@@ -1,0 +1,30 @@
+<svg width="1200" height="205" viewBox="0 0 1200 205" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="205">
+      <stop stop-color="#070311"/>
+      <stop offset="1" stop-color="#06131A"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="65" y1="0" x2="1125" y2="0">
+      <stop stop-color="#00F7FF"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#FF2BD6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="205" rx="18" fill="url(#bg)" stroke="#26314D"/>
+  <text x="58" y="48" fill="#00F7FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="17" letter-spacing="4">ACTIVE RESEARCH CHANNELS</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="64" y="92" fill="#E6F2FF" font-size="18">01  ROTOR DYNAMICS &amp; VIBRATION DIAGNOSTICS</text>
+    <rect x="640" y="76" width="420" height="13" rx="6.5" fill="#17223A"/>
+    <rect x="640" y="76" width="374" height="13" rx="6.5" fill="url(#bar)"/>
+
+    <text x="64" y="130" fill="#E6F2FF" font-size="18">02  ENGINE MODELLING &amp; ENGINEERING SOFTWARE</text>
+    <rect x="640" y="114" width="420" height="13" rx="6.5" fill="#17223A"/>
+    <rect x="640" y="114" width="350" height="13" rx="6.5" fill="url(#bar)"/>
+
+    <text x="64" y="168" fill="#E6F2FF" font-size="18">03  EMBEDDED SYSTEMS &amp; INDUSTRIAL AUTOMATION</text>
+    <rect x="640" y="152" width="420" height="13" rx="6.5" fill="#17223A"/>
+    <rect x="640" y="152" width="325" height="13" rx="6.5" fill="url(#bar)"/>
+  </g>
+</svg>
